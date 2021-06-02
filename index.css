@@ -37,7 +37,7 @@ blockquote, q {
 	quotes: "" "";
 	}
 *{
-    box-sizing:border-bos;
+    box-sizing:border-box;
     padding:0;
     margin:0;
     max-width:100%;
@@ -50,20 +50,29 @@ html{
 body{
     font-size:1.6rem;
     line-height:1.5;
-    color:#4f4f4f; */easy to read than black on white*/
-    font-family: "Roboto Mono",monospace;
+    color:#4f4f4f; /*easier to read than black on white*/
+    font-family: 'Roboto Mono', monospace;
 
+}
+.top p{
+    background-color:#DDB9A3
 }
 h1{
     font-family: 'Chelsea Market', cursive;
     font-size:5rem;
+    display:inline;
+    
+
+
+    
+
 }
 section{
-    padding:4% 1%;
+    padding: 4% 0%;
 }
 /*Header Section Styles*/
 nav{
-    padding:2% 0;
+    padding: 2% 0;
 }
 nav a{
     display:inline-block;
@@ -79,8 +88,8 @@ nav a{
 
 }
 .blue{
-    backgound-color:#5ED3EB;
-    margin:0 24%;
+    background-color:#5ED3EB;
+    margin: 0 24%;
 }
 .yellow{
     background-color:#FFCD69;
@@ -89,12 +98,14 @@ nav a{
 
 /*Top Section Styles*/
 .top{
-    position:relative
+    position:relative;
 
 }
 .left img{
+    display:inline;
     border-radius:50%;
     width:70%;
+    margin:0;
 }
 .left, .right{
     display:inline-block;
@@ -110,16 +121,27 @@ nav a{
     top:40%;
     text-align:center;
 }
-.right div{
-    position:absolute;
-    bottom:100%;
-}
 
 /*background Image section*/
 .heroImg{
     height:50vh;
     background-image:url('assets/footer_img.jpg');
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:cover; 
     background-position:top;
+}
+/*bottom of the page*/
+footer{
+    background-color:#F9E7DC;
+}
+/*Middle of the page*/
+.info{
+    text-align: center;
+}
+.bold{
+    font-weight:bold;
+}
+.info img{
+    padding:10%;
+    margin:10%;
 }
