@@ -41,7 +41,7 @@ blockquote, q {
     padding:0;
     margin:0;
     max-width:100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }    
 /*general styles*/
 html{
@@ -54,18 +54,38 @@ body{
     font-family: 'Roboto Mono', monospace;
 
 }
-.top p{
-    background-color:#DDB9A3
+.right p{
+    
+   text-align:center;
 }
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size:5rem;
+    font-size:8rem;
+    position:relative;
+    bottom:10rem;
+  
+}
+h2{
+     display:inline;
+     font-size:3rem;
+     position:relative;
+     bottom: 10rem;
+}
+.right p{
     display:inline;
-    
-
-
-    
-
+    font-size:3rem;
+    position:relative;
+    bottom: 9rem; 
+    margin-top:10%; 
+}
+.describe {
+    background-color:#DDB9A3;
+    position:relative;
+    text-align:center;
+    color:#fff;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding:2%;
 }
 section{
     padding: 4% 0%;
@@ -106,6 +126,8 @@ nav a{
     border-radius:50%;
     width:70%;
     margin:0;
+    margin-bottom: 20%;
+   
 }
 .left, .right{
     display:inline-block;
@@ -137,11 +159,15 @@ footer{
 /*Middle of the page*/
 .info{
     text-align: center;
+    margin-right: 35%;
+    margin-left: 35%;
+    font-size: 2rem;
+    margin-bottom: 10%;
 }
 .bold{
     font-weight:bold;
 }
 .info img{
-    padding:10%;
-    margin:10%;
+    width: 300px;
+    height:300px;
 }
